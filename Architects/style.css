@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 95%;
+    margin:auto;
+}
+.section{
+    padding-top: 40px;
+}
+.clr{
+    clear: both;
+}
+header{
+    width: 100%;
+    height: 35px;
+    position: fixed;
+    padding: 10px 16px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #999;
+    z-index: 1;
+}
+
+#navbar{
+    color: black;
+
+}
+.clr{
+    clear: both;
+}
+
+.logo{
+    float: left;
+    width: auto;
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-family: Verdana,sans-serif;
+    display: block;
+}
+.logo:hover{
+    background-color: rgb(210, 210, 210);
+}
+
+#navbar ul{
+    float: right;
+    list-style: none;
+    padding: 8px 35px 8px 0;   
+}
+#navbar ul li{
+    display: inline;
+}
+#navbar ul li a{
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-family: Verdana,sans-serif;
+}
+#navbar ul li a:hover{
+    background-color: rgb(210, 210, 210);
+}
+
+#showcase{
+    background-image: url(img/architect.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.showcase-contact{
+    font-family: Verdana,sans-serif;
+    font-size: 33px;
+    color: #fff;
+    text-align: center;
+    padding-top: 350px;
+    letter-spacing: 3px;
+}
+.showcase-contact span{
+    background-color: black;
+    opacity: 0.8;
+    padding: 12px;
+    margin: 15px;
+}
+#project{
+    width: 100%;
+    box-sizing: border-box;
+}
+#project .h3{
+    padding: 20px 0 10px 0; 
+    font-size: 24px;
+    margin: 10px 0;
+    font-family: Verdana,sans-serif;
+}
+#project hr{
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+}
+.pro{
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+.project-img{
+    float: left;
+    min-width:23.825%;
+    height: 200px;
+    margin:0 10px 12px 0;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/house5.jpg);
+
+}
+.project-img1{
+    float: left;
+    min-width:23.825%;
+    height: 200px;
+    margin:0 10px 12px 10px;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/house2.jpg);
+
+}
+.project-img2{
+    float: left;
+    min-width:23.825%;
+    height: 200px;
+    margin:0 10px 12px 10px;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/house3.jpg);
+
+}
+.project-img3{
+    float: left;
+    min-width:23.825%;
+    height: 200px;
+    margin: 0 0 12px 10px;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/house4.jpg);
+
+}
+.project-img4{
+    float: left;
+    min-width:23.825%;
+    height: 200px;
+    margin:0 10px 12px 0;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/house2.jpg);
+
+}
+.project-img5{
+    float: left;
+    min-width:23.825%;
+    height: 200px;
+    margin:0 10px 12px 10px;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/house5.jpg);
+
+}
+.project-img6{
+    float: left;
+    min-width:23.825%;
+    height: 200px;
+    margin:0 10px 12px 10px;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/house4.jpg);
+
+}
+.project-img7{
+    float: left;
+    min-width:23.825%;
+    height: 200px;
+    margin: 0 0 12px 10px;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/house3.jpg);
+}
+.project-par{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 7px 10px;
+    width: 100px;
+}
+#about-main{
+    padding-bottom: 25px;
+}
+#about-main .h3{
+    padding-top: 5px;
+    padding-bottom: 10px; 
+    font-size: 24px;
+    margin: 10px 0;
+    font-family: Verdana,sans-serif;
+}
+#about-main hr{
+    border: none;
+    border-bottom: 1px solid #dddddd;
+}
+#about-contact{
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+    font-family: Verdana,sans-serif;
+}
+.about-person{
+    float: left;
+    margin: auto;
+    width: 25%;
+    padding: 0 8px;
+    box-sizing: border-box;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+}
+
+.about-person img{
+    width: 100%;
+    height: 200px;
+}
+.about-person .h3{
+    font-size: 24px;
+    margin: 10px 0;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+
+.about-person .ceo{
+    margin: 10px 0;
+    opacity: 0.6;
+    padding: 10px 0;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    padding: 8px 16px;
+    margin: 15px 0;
+    border: none;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: rgb(185, 185, 185);
+    cursor: pointer;
+}
+
+
+#contact-input .h3{
+    font-size: 24px;
+    margin: 10px 0;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+#contact-input hr{
+    margin: 17px 0;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+}
+#contact-input p{
+    font-size: 15px;
+    font-family: Verdana,sans-serif;
+    margin: 10px 0;
+    
+}
+#contact-input input{
+    width: 98%;
+    color: #ccc;
+    height: 24px;
+    margin: 8px auto;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Verdana,sans-serif;
+    border: 1px solid #ccc;
+}
+#btn1{
+    width: 160px;
+    padding: 8px 16px;
+    margin: 16px 0 ;
+    font-size: 15px;
+    font-family: Verdana,sans-serif;
+    border: none;
+    background-color: #000;
+    color: #fff;}
+
+#btn1:hover{
+    color: black;
+    background-color: #ddd;
+    cursor: pointer;
+
+}
+#footer{
+    height: 55px;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 16px;
+    font-family:Verdana,sans-serif ;
+    background-color: #000;
+    color: #fff;
+}
+#footer a{
+    color: #fff;
+}
